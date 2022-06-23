@@ -1,0 +1,6 @@
+type Query {
+  getExample: String
+}
+type Mutation {
+  updateExample: String
+}
