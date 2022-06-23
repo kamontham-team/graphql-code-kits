@@ -1,0 +1,13 @@
+directive @date(defaultFormat: String! = "YYYY-MM-DDTHH:mm:ssZ") on FIELD_DEFINITION | FIELD
+
+scalar Date
+
+type ScheduleEvent {
+  id: ID
+  eventName: String
+  startDate: Date @date
+  endDate: Date @date
+}
+type Query {
+  getMySchedule: [ScheduleEvent]
+}
