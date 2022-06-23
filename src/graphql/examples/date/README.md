@@ -1,7 +1,7 @@
 # Formatting Date
-This example will conbind showing date and format date using [moment.js].
+This example will combind showing date and format date using [moment.js].
 
-> Note: `formating date` related by GraphQL directive.
+> Note: `formating date` related by GraphQL directives.
 
 For example query as showing date type:
 ```sh
