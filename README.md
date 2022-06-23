@@ -17,26 +17,37 @@
 - Uploading file
 - Error handling
 
+## Installation
 
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [ApolloGraphql]: <https://www.apollographql.com/>
-   [node.js]: <http://nodejs.org>
-   [vue.js]: <https://vuejs.org/>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-   [Moment.js]: <https://momentjs.com/docs>
+Graphql Kit requires [Node.js](https://nodejs.org/) v10+ to run.
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+Install the dependencies and devDependencies and start the server.
+
+```sh
+npm i
+npm run dev
+```
+Service running at port [8989](http://localhost:8989)
+
+[dill]: <https://github.com/joemccann/dillinger>
+[git-repo-url]: <https://github.com/joemccann/dillinger.git>
+[john gruber]: <http://daringfireball.net>
+[df1]: <http://daringfireball.net/projects/markdown/>
+[markdown-it]: <https://github.com/markdown-it/markdown-it>
+[ApolloGraphql]: <https://www.apollographql.com/>
+[node.js]: <http://nodejs.org>
+[vue.js]: <https://vuejs.org/>
+[Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+[jQuery]: <http://jquery.com>
+[@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+[express]: <http://expressjs.com>
+[AngularJS]: <http://angularjs.org>
+[Gulp]: <http://gulpjs.com>
+[Moment.js]: <https://momentjs.com/docs>
+
+[PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+[PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+[PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+[PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+[PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+[PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
