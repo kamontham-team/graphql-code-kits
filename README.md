@@ -8,11 +8,11 @@
 - [Express] - fast node.js network app framework
 
 ## Example Overview
-- Types - Default type of GraphQL and special kind of type.
+- Types - Default type of GraphQL and special kind of type. [link](https://github.com/kamontham-team/graphql-code-kits/tree/main/src/graphql/examples/type)
 - Field - Declare specific fields.
 - Variables - Declare the variable at Operation function.
 - Directives - Decorate GraphQL schema.
-- Date - Formatting date with [Moment.js] See the example [here](https://github.com/kamontham-team/graphql-code-kits/tree/main/src/graphql/examples/date).
+- Date - Formatting date with [Moment.js]. See the example [here](https://github.com/kamontham-team/graphql-code-kits/tree/main/src/graphql/examples/date)
 - Multiple Query
 - Uploading file
 - Error handling

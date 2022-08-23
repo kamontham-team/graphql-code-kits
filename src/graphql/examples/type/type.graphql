@@ -1,0 +1,25 @@
+scalar JSON
+type Book {
+  id: ID
+  name: String
+  amount: Int
+  price: Float
+  group: [String]
+  metaData: JSON
+}
+enum BookType {
+  Action
+  Drama
+  Romance
+}
+input BookInput {
+  name: String
+  amount: Int
+  price: Float
+  group: [BookType]
+}
+type Query {
+  getBookAllStore: [Book]
+  getBookById(id: ID!): Book
+  getMyBook(user: ID!): [Book]
+}
