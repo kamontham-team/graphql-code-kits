@@ -12,10 +12,12 @@ This example is basic types of graphql. You can define types like the following.
 ##### Special Types
 - Mutation
 - Query
-- Multiple Query
+- Multiple Quries
 
 Basic declare types:
+> JSON is [Custom scalar] when JSON has defined that will be any type you want. If you need to implement type to a specific type also. []
 ```sh
+scalar JSON
 type Book {
     id: ID
     name: String
@@ -26,6 +28,8 @@ type Book {
 }
 ```
 Declare Input type and Enum type:
+> Exclamation is mean the value can't be nullable.
+> Defining array type so easy wrap by square eg. [BookType]
 ```sh
 enum BookType {
     Action
@@ -34,6 +38,7 @@ enum BookType {
 }
 input BookInput {
     name: String
+    createBy: String! # Exclamation mark
     amount: Int
     price: Float
     group: [BookType]
@@ -42,12 +47,12 @@ input BookInput {
 ### Query
 ```sh
 type Query {
-    getBookAllStore(): [Book]
+    getBookAllStore: [Book]
     getBookById(id: ID!): Book
     getMyBook(user: ID!): [Book]
 }
 ```
-How to use multiple query fetching:
+How to fetching multiple queres:
 ```sh
 query DashboardAPI($user: ID!) {
   getBookAllStore {
@@ -69,3 +74,4 @@ type Mutation {
     updateBookById(id: ID!, data: BookInput): Book
 }
 ```
+[Custom scalar]: <https://www.graphql-tools.com/docs/scalars#custom-graphqlscalartype-instance>
